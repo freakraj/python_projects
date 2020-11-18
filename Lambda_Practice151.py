@@ -10,11 +10,11 @@ print(is_even(6))
 #------------------------------------------
 # short way to present even odd program 
 
-def is_even(a):
+def is_even2(a):
      return a%2==0 # true and false return
-print(is_even(6))
+print(is_even2(6))
 
-This program to will be perform from the the lamda expresion 
+#This program to will be perform from the the lamda expresion 
 lamex = lambda a:a%2 == 0 
 print(lamex(6)) 
 #------------------------------------------
@@ -30,11 +30,11 @@ print(last_char('gautam'))
 #------------------------------------------
 # lambda with if else 
 
-def str_func(s):
+def str_func2(s):
     if len(s)>5 :
         return True
     return False 
-print(str_func('rajgautam'))
+print(str_func2('rajgautam'))
 
 # Using  for lambda expresion 
 
